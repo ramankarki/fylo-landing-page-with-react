@@ -1,0 +1,17 @@
+@import "../components/utilities/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
