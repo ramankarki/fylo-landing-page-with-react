@@ -1,0 +1,17 @@
+.Illustration-container {
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .Illustration-container {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.Hero-Illustration {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=Picture.css.map */
