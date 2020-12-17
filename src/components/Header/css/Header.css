@@ -1,8 +1,8 @@
 .header-fixed {
   position: fixed;
   width: 100%;
-  top: 0;
   left: 0;
+  right: 0;
   -webkit-transition: 300ms ease-out;
   transition: 300ms ease-out;
 }
@@ -21,6 +21,7 @@
 
 .header {
   width: 90%;
+  max-width: 1366px;
   margin: 0 auto;
   padding: 1.5rem 0;
   display: -webkit-box;
