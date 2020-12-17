@@ -1,0 +1,47 @@
+.article-wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 992px) {
+    max-width: 540px;
+  }
+
+  &-ml-lg {
+    @media (min-width: 992px) {
+      margin-left: 6rem;
+    }
+  }
+}
+
+.heading {
+  color: #000217;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+  font-family: "Raleway", sans-serif;
+
+  @media (max-width: 992px) {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+  }
+
+  &-dark {
+    color: white;
+  }
+}
+
+.paragraph {
+  color: #8b8b8b;
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  margin-top: 2rem;
+
+  @media (max-width: 992px) {
+    text-align: center;
+  }
+}
