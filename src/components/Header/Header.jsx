@@ -13,15 +13,17 @@ function Header(props) {
   }
 
   return (
-    <div className={headerBg}>
-      <header className="header container">
-        <Logo dark={props.isdarkThemeActive} />
-        <DarkThemeSwitchBtn
-          dark={props.isdarkThemeActive}
-          changeTheme={props.switchActiveTheme}
-        />
-        <Nav dark={props.isdarkThemeActive} />
-      </header>
+    <div className="header-fixed">
+      <div className={headerBg}>
+        <header className="header container">
+          <Logo dark={props.isdarkThemeActive} />
+          <DarkThemeSwitchBtn
+            dark={props.isdarkThemeActive}
+            changeTheme={props.switchActiveTheme}
+          />
+          <Nav dark={props.isdarkThemeActive} />
+        </header>
+      </div>
     </div>
   );
 }
