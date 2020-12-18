@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
+import Feature from "./Feature/Feature";
 
 function App() {
   // initially lite theme is active
@@ -9,30 +10,30 @@ function App() {
   function switchActiveTheme() {
     if (darkThemeActive) {
       setDarkThemeActive(false);
+      document.querySelector("#root").style.backgroundColor = "white";
     } else {
       setDarkThemeActive(true);
+      document.querySelector("#root").style.backgroundColor = "#1C2431";
     }
   }
 
   useEffect(() => {
-    let headerHeight = document.querySelector(".header-wrapper").clientHeight;
-    document.querySelector(
-      ".Hero-wrapper"
-    ).style.marginTop = `${headerHeight}px`;
     let headerFixedContainer = document.querySelector(".header-fixed");
+    let headerHeight = headerFixedContainer.clientHeight;
+    document.querySelector(".Hero-wrapper").style.paddingTop = `${
+      headerHeight + 20
+    }px`;
 
     let lastScrolled = 0;
 
     window.addEventListener("scroll", () => {
-      let scrolled = window.screenTop || document.documentElement.scrollTop;
-      if (scrolled > headerHeight) {
-        if (scrolled > lastScrolled) {
-          headerFixedContainer.style.top = `-${headerHeight}px`;
-        } else {
-          headerFixedContainer.style.top = "0";
-        }
-        lastScrolled = scrolled;
+      let scrolled = document.documentElement.scrollTop;
+      if (scrolled > lastScrolled) {
+        headerFixedContainer.style.top = `-${headerHeight + 40}px`;
+      } else {
+        headerFixedContainer.style.top = "0";
       }
+      lastScrolled = scrolled;
     });
   });
 
@@ -43,6 +44,7 @@ function App() {
         switchActiveTheme={switchActiveTheme}
       />
       <Hero isdarkThemeActive={darkThemeActive} />
+      <Feature isdarkThemeActive={darkThemeActive} />
     </div>
   );
 }
