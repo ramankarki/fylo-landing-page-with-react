@@ -22,4 +22,9 @@ body {
   -webkit-transition: 300ms ease-out;
   transition: 300ms ease-out;
 }
+
+#root {
+  -webkit-transition: 300ms ease-out;
+  transition: 300ms ease-out;
+}
 /*# sourceMappingURL=main.css.map */
