@@ -85,7 +85,7 @@
   transition: 300ms ease-out;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .button {
     width: 70%;
     margin-left: auto;
