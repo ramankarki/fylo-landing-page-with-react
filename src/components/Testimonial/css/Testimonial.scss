@@ -15,7 +15,7 @@
   width: 85%;
   margin: 0 auto;
 
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     background-position: top center;
     padding-bottom: 1rem;
   }
@@ -24,6 +24,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
+    & > * {
+      margin-left: 3rem;
+    }
+
+    & > *:first-child() {
+      margin-left: 0;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    width: 85%;
   }
 
   &-dark {

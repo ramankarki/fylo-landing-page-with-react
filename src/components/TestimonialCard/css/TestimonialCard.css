@@ -13,7 +13,7 @@
   transition: 300ms ease-out;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .TestimonialCard {
     margin: auto;
     margin-bottom: 3rem;
