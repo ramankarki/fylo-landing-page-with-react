@@ -2,6 +2,7 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1rem;
 }
 
 @media (max-width: 992px) {
@@ -12,7 +13,7 @@
 
 @media (min-width: 992px) {
   .article-wrapper-ml-lg {
-    margin-left: 6rem;
+    margin-left: 4rem;
   }
 }
 
@@ -32,12 +33,24 @@
 
 @media (min-width: 992px) {
   .heading {
+    text-align: left;
     font-size: 2.2rem;
-    line-height: 3.5rem;
+    line-height: 3rem;
   }
 }
 
 .heading-dark {
+  color: white;
+}
+
+.sub-heading {
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #000217;
+}
+
+.sub-heading-dark {
   color: white;
 }
 
@@ -52,5 +65,10 @@
   .paragraph {
     text-align: center;
   }
+}
+
+.paragraph-center {
+  text-align: center;
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=Article.css.map */

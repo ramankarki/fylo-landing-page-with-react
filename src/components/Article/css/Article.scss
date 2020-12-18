@@ -2,6 +2,7 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1rem;
 
   @media (max-width: 992px) {
     max-width: 540px;
@@ -9,7 +10,7 @@
 
   &-ml-lg {
     @media (min-width: 992px) {
-      margin-left: 6rem;
+      margin-left: 4rem;
     }
   }
 }
@@ -26,9 +27,21 @@
   }
 
   @media (min-width: 992px) {
+    text-align: left;
     font-size: 2.2rem;
-    line-height: 3.5rem;
+    line-height: 3rem;
   }
+
+  &-dark {
+    color: white;
+  }
+}
+
+.sub-heading {
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #000217;
 
   &-dark {
     color: white;
@@ -43,5 +56,10 @@
 
   @media (max-width: 992px) {
     text-align: center;
+  }
+
+  &-center {
+    text-align: center;
+    margin-top: 1rem;
   }
 }
