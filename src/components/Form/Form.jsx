@@ -3,7 +3,7 @@ import "./css/Form.css";
 
 export default function Form(props) {
   return (
-    <form action="/" className="form">
+    <form action="/" className={props.hero ? "form form-margin-left" : "form"}>
       <input
         className="email"
         type="email"
