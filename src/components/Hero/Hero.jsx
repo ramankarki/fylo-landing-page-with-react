@@ -20,6 +20,7 @@ export default function Hero(props) {
         />
         <div>
           <Article
+            section="hero"
             headingType="heading"
             isdarkThemeActive={props.isdarkThemeActive}
             heading="All your files in one secure location, accessible anywhere"
