@@ -1,15 +1,14 @@
 .article-wrapper {
-  width: 90%;
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1rem;
 
   @media (max-width: 992px) {
     max-width: 540px;
   }
 
-  &-ml-lg {
-    @media (min-width: 992px) {
+  @media (min-width: 992px) {
+    &-hero {
       margin-left: 4rem;
     }
   }
@@ -30,6 +29,7 @@
     text-align: left;
     font-size: 2.2rem;
     line-height: 3rem;
+    margin: auto;
   }
 
   &-dark {
@@ -53,13 +53,16 @@
   font-size: 0.9rem;
   line-height: 1.8rem;
   margin-top: 2rem;
+  text-align: left;
 
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     text-align: center;
   }
 
   &-center {
     text-align: center;
+    margin: auto;
+    width: 80%;
     margin-top: 1rem;
   }
 }

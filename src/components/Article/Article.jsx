@@ -22,7 +22,7 @@ export default function Article(props) {
       className={
         props.headingType === "sub-heading"
           ? "article-wrapper"
-          : "article-wrapper article-wrapper-ml-lg"
+          : `article-wrapper article-wrapper-${props.section}`
       }
     >
       <h1
