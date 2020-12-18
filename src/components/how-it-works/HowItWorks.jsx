@@ -36,6 +36,7 @@ export default function HowItWorks(props) {
           >
             See how it works{" "}
             <img
+              className="icon-arrow"
               src={
                 props.isdarkThemeActive
                   ? "image-dark-theme/arrow-icon.svg"

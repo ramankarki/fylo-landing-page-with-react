@@ -31,6 +31,15 @@
   }
 }
 
+.icon-arrow {
+  margin-right: 1rem;
+  transition: 300ms ease-out;
+}
+
+.seeHowItWorks:hover .icon-arrow {
+  margin-right: 0;
+}
+
 .seeHowItWorks {
   margin-top: 2rem;
   display: block;
@@ -40,7 +49,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 160px;
+  max-width: 180px;
   position: relative;
   transition: 300ms ease-out;
   font-weight: 700;
