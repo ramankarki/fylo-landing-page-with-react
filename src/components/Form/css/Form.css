@@ -1,5 +1,6 @@
 .form {
   margin-top: 2rem;
+  font-family: "Open sans", sans-serif;
 }
 
 @media (max-width: 992px) {
@@ -35,6 +36,7 @@
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
+  font-family: "Open sans", sans-serif;
 }
 
 @media (max-width: 768px) {
