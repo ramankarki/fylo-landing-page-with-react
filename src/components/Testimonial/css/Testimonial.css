@@ -1,0 +1,43 @@
+.Testimonial-wrapper {
+  background-color: #f8f8fe;
+}
+
+.Testimonial-wrapper-dark {
+  background-color: #181f2a;
+}
+
+.Testimonial {
+  background-image: url("../images/quote-left-icon.svg");
+  background-repeat: no-repeat;
+  background-position: top 0 left 50px;
+  background-size: 6rem;
+  padding: 4.5rem 0 4rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .Testimonial {
+    background-position: top center;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .Testimonial {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.Testimonial-dark {
+  background-image: url("../images/quote-left-icon-dark.svg");
+}
+/*# sourceMappingURL=Testimonial.css.map */
