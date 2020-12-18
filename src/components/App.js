@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import Feature from "./Feature/Feature";
+import HowItWorks from "./how-it-works/HowItWorks";
 
 function App() {
   // initially lite theme is active
@@ -45,6 +46,7 @@ function App() {
       />
       <Hero isdarkThemeActive={darkThemeActive} />
       <Feature isdarkThemeActive={darkThemeActive} />
+      <HowItWorks isdarkThemeActive={darkThemeActive} />
     </div>
   );
 }
