@@ -44,16 +44,6 @@
   }
 }
 
-.icon-arrow {
-  margin-right: 1rem;
-  -webkit-transition: 300ms ease-out;
-  transition: 300ms ease-out;
-}
-
-.seeHowItWorks:hover .icon-arrow, .seeHowItWorks-dark:hover .icon-arrow {
-  margin-right: 0;
-}
-
 .seeHowItWorks, .seeHowItWorks-dark {
   margin-top: 2rem;
   display: block;
@@ -69,7 +59,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 180px;
+  max-width: 160px;
   position: relative;
   -webkit-transition: 300ms ease-out;
   transition: 300ms ease-out;
@@ -100,5 +90,9 @@
 
 .seeHowItWorks-dark::after {
   background-color: #65e2d9;
+}
+
+.seeHowItWorks:hover, .seeHowItWorks-dark:hover {
+  max-width: 180px;
 }
 /*# sourceMappingURL=HowItWorks.css.map */
