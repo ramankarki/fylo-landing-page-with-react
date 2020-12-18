@@ -10,7 +10,13 @@ export default function Picture(props) {
   }
 
   return (
-    <picture className="Illustration-container">
+    <picture
+      className={
+        props.imgType === "sm"
+          ? "Illustration-container Illustration-container-max-w-120"
+          : "Illustration-container"
+      }
+    >
       <img
         className="Hero-Illustration"
         src={imgURL}
