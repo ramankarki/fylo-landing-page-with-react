@@ -63,6 +63,7 @@
   position: relative;
   -webkit-transition: 300ms ease-out;
   transition: 300ms ease-out;
+  font-weight: 700;
 }
 
 @media (max-width: 991px) {
