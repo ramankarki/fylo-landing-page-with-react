@@ -5,6 +5,7 @@ import Feature from "./Feature/Feature";
 import HowItWorks from "./how-it-works/HowItWorks";
 import Testimonial from "./Testimonial/Testimonial";
 import GetStarted from "./GetStarted/GetStarted";
+import Footer from "./Footer/Footer";
 
 function App() {
   // initially lite theme is active
@@ -51,6 +52,7 @@ function App() {
       <HowItWorks isdarkThemeActive={darkThemeActive} />
       <Testimonial isdarkThemeActive={darkThemeActive} />
       <GetStarted isdarkThemeActive={darkThemeActive} />
+      <Footer isdarkThemeActive={darkThemeActive} />
     </div>
   );
 }
