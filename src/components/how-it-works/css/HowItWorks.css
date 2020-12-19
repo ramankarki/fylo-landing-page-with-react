@@ -9,6 +9,7 @@
 }
 
 .HowItWorks {
+  max-width: 1366px;
   padding: 4rem 0 6rem;
   width: 85%;
   margin-left: auto;

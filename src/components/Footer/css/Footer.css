@@ -16,6 +16,7 @@
 
 .Footer {
   width: 90%;
+  max-width: 1366px;
   margin: 0 auto;
   padding-bottom: 4rem;
   color: #8b8b8b;
