@@ -1,5 +1,6 @@
 .Testimonial-wrapper {
   background-color: #f8f8fe;
+  z-index: 80;
 }
 
 .Testimonial-wrapper-dark {
@@ -11,7 +12,7 @@
   background-repeat: no-repeat;
   background-position: top 0 left 50px;
   background-size: 6rem;
-  padding: 4.5rem 0 4rem;
+  padding: 4.5rem 0 17rem;
   width: 85%;
   margin: 0 auto;
 }
@@ -19,7 +20,6 @@
 @media (max-width: 991px) {
   .Testimonial {
     background-position: top center;
-    padding-bottom: 1rem;
   }
 }
 
