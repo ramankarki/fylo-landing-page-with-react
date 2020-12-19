@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./css/HowItWorks.css";
+import "./css/HowItWorks.css";
 import Picture from "../Picture/Picture";
 import Article from "../Article/Article";
 
