@@ -1,7 +1,7 @@
 <h1 align="center">Fylo - landing page with React </h1>
 
 <div align="center">
-  <a href="https://fylo-cloud-landing-page-with-react.netlify.app/"><h2>See Live</h2></a>
+  <a href="https://fylo-cloud-landing-page-with-react.netlify.app/">See Live</a>
 </div>
 
 <p align="center">This is a cloud storage landing page build using React with dark theme added.</p>
