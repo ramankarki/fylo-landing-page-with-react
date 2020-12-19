@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <h1 align="center">Fylo - landing page with React </h1>
 
 <div align="center">
-  <a href="https://fylo-cloud-landing-page-with-react.netlify.app/">See Live</a>
+  <a href="https://fylo-cloud-landing-page-with-react.netlify.app/" target="_blank">See Live</a>
 </div>
 
 <p align="center">This is a cloud storage landing page build using React with dark theme added.</p>
@@ -19,7 +20,7 @@
 
 ## Getting Started
 
-To get started, you can download a local copy of the repository and or see live [here](https://fylo-cloud-landing-page-with-react.netlify.app/).
+To get started, you can download a local copy of the repository and or see live <a href="https://fylo-cloud-landing-page-with-react.netlify.app/" target="_blank">here</a>.
 
 ### Prerequisites
 
