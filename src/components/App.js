@@ -4,6 +4,7 @@ import Hero from "./Hero/Hero";
 import Feature from "./Feature/Feature";
 import HowItWorks from "./how-it-works/HowItWorks";
 import Testimonial from "./Testimonial/Testimonial";
+import GetStarted from "./GetStarted/GetStarted";
 
 function App() {
   // initially lite theme is active
@@ -49,6 +50,7 @@ function App() {
       <Feature isdarkThemeActive={darkThemeActive} />
       <HowItWorks isdarkThemeActive={darkThemeActive} />
       <Testimonial isdarkThemeActive={darkThemeActive} />
+      <GetStarted isdarkThemeActive={darkThemeActive} />
     </div>
   );
 }
