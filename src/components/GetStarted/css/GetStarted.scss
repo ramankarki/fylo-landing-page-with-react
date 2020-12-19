@@ -1,3 +1,12 @@
+.GetStarted-wrapper {
+  background-color: white;
+  transition: 300ms ease-out;
+
+  &-dark {
+    background-color: #0b1523;
+  }
+}
+
 .GetStarted {
   padding: 2rem 0.5rem;
   max-width: 800px;
@@ -28,9 +37,10 @@
     font-size: 1.3rem;
     font-family: "Raleway", sans-serif;
     text-align: center;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     transition: 300ms ease-out;
+    color: #000217;
 
     &-dark {
       color: rgb(212, 212, 212);
@@ -43,7 +53,7 @@
 
   &-text {
     margin: auto;
-    width: 90%;
+    width: 80%;
     font-size: 0.9rem;
     line-height: 1.8rem;
     margin-top: 1rem;
