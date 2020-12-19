@@ -28,7 +28,11 @@ export default function Hero(props) {
               "Flyo stores your important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.",
             ]}
           />
-          <Form buttonValue="Get started" hero={true} />
+          <Form
+            buttonValue="Get started"
+            hero={true}
+            isdarkThemeActive={props.isdarkThemeActive}
+          />
         </div>
       </article>
     </div>
