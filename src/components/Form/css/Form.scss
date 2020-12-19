@@ -30,7 +30,7 @@
   transition: 300ms ease-out;
 
   &-dark {
-    background-color: #202a3c;
+    background-color: inherit;
     color: #9e9e9e;
   }
 
@@ -66,13 +66,14 @@
   flex: 1;
   margin-left: 2rem;
   background-color: #3065f8;
-  border: none;
+  border: 1px solid #3065f8;
   border-radius: 100rem;
   color: white;
   transition: 300ms ease-out;
 
   @media (min-width: 992px) {
     &:hover {
+      border: 1px solid #2747a1;
       background-color: #2747a1;
     }
 
