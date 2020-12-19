@@ -5,7 +5,7 @@ export default function Form(props) {
   return (
     <form action="/" className={props.hero ? "form form-margin-left" : "form"}>
       <input
-        className="email"
+        className={props.isdarkThemeActive ? "email email-dark" : "email"}
         type="email"
         name="email"
         placeholder="Enter your email..."
