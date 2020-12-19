@@ -16,6 +16,8 @@
 
 .GetStarted-dark {
   background-color: #1c2431;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
 
 @media (min-width: 576px) {
